@@ -44,7 +44,7 @@ $("#9am-save-button").on('click', function(){
     $("#form-9").attr("placeholder", input);
     scheduledEvents[0] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#10am-save-button").on('click', function(){
     input = $("#form-10").val();
@@ -52,54 +52,54 @@ $("#10am-save-button").on('click', function(){
     scheduledEvents[1] = input;
     console.log(scheduledEvents[1]);
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#11am-save-button").on('click', function(){
     input = $("#form-11").val();
     $("#form-11").attr("placeholder", input);
     scheduledEvents[2] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#12pm-save-button").on('click', function(){
     input = $("#form-12").val();
     $("#form-12").attr("placeholder", input);
     scheduledEvents[3] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#1pm-save-button").on('click', function(){
     input = $("#form-13").val();
     $("#form-13").attr("placeholder", input);
     scheduledEvents[4] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#2pm-save-button").on('click', function(){
     input = $("#form-14").val();
     $("#form-14").attr("placeholder", input);
     scheduledEvents[5] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#3pm-save-button").on('click', function(){
     input = $("#form-15").val();
     $("#form-15").attr("placeholder", input);
     scheduledEvents[6] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#4pm-save-button").on('click', function(){
     input = $("#form-16").val();
     $("#form-16").attr("placeholder", input);
     scheduledEvents[7] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
 $("#5pm-save-button").on('click', function(){
     input = $("#form-17").val();
     $("#form-17").attr("placeholder", input);
     scheduledEvents[8] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
-})
+});
 
