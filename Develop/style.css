@@ -70,6 +70,19 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.save-button{
-  background-color: lightblue;
+.list-group-item{
+  height: 4em;
+}
+
+.future{
+  background-color: lightskyblue;
+}
+.past{
+  background-color: lightgray;
+}
+.present{
+  background-color: lightgreen;
+}
+.hour{
+  background-color: darkslategray;
 }
