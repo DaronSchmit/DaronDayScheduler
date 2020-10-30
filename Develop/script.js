@@ -69,36 +69,36 @@ $("#12pm-save-button").on('click', function(){
 })
 
 $("#1pm-save-button").on('click', function(){
-    input = $("#form-1").val();
-    $("#form-1").attr("placeholder", input);
+    input = $("#form-13").val();
+    $("#form-13").attr("placeholder", input);
     scheduledEvents[4] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
 })
 
 $("#2pm-save-button").on('click', function(){
-    input = $("#form-2").val();
-    $("#form-2").attr("placeholder", input);
+    input = $("#form-14").val();
+    $("#form-14").attr("placeholder", input);
     scheduledEvents[5] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
 })
 
 $("#3pm-save-button").on('click', function(){
-    input = $("#form-3").val();
-    $("#form-3").attr("placeholder", input);
+    input = $("#form-15").val();
+    $("#form-15").attr("placeholder", input);
     scheduledEvents[6] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
 })
 
 $("#4pm-save-button").on('click', function(){
-    input = $("#form-4").val();
-    $("#form-4").attr("placeholder", input);
+    input = $("#form-16").val();
+    $("#form-16").attr("placeholder", input);
     scheduledEvents[7] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
 })
 
 $("#5pm-save-button").on('click', function(){
-    input = $("#form-5").val();
-    $("#form-5").attr("placeholder", input);
+    input = $("#form-17").val();
+    $("#form-17").attr("placeholder", input);
     scheduledEvents[8] = input;
     localStorage.setItem('events', JSON.stringify(scheduledEvents));
 })
