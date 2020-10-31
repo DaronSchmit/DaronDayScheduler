@@ -14,6 +14,7 @@ Otherwise, a user may go to  https://daronschmit.github.io/DaronDayScheduler/ to
 This webpage displays normal work hours and will change colors based on if a work hour is in the past, present, or future. Users may also enter anything into the text input area and press the save button in order to save their event and have it persist between page reloads. If a user wants to clear them, they only have to clear out the text and save again.
 
 ![Schedulinator!](./Assets/screencap.png)
+![Part 2!](./Assets/screencap2.png)
 
 
 ## Credits
