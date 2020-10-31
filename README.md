@@ -1,95 +1,21 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+## Description
+This project is a basic webpage made to help schedule out a workday in an hourly fashion. This project was made to focus on manipulating HTML, CSS, and localStorage using jquery as well as learning how to use a new API in moment.js.
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Installation
+In order to use this website, you may downlaod it here https://github.com/DaronSchmit/DaronDayScheduler/archive/main.zip this will require you to unzip it, but you only have to open index.html to get started.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Otherwise, a user may go to  https://daronschmit.github.io/DaronDayScheduler/ to see the webpage deployed live, or to the GitHub repository at https://github.com/DaronSchmit/DaronDayScheduler.
 
+## Usage
+This webpage displays normal work hours and will change colors based on if a work hour is in the past, present, or future. Users may also enter anything into the text input area and press the save button in order to save their event and have it persist between page reloads. If a user wants to clear them, they only have to clear out the text and save again.
 
-## User Story
-
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+![Schedulinator!](./Assets/screencap.png)
 
 
-## Acceptance Criteria
+## Credits
+Big credits to Trilogy and university of minnesota coding bootcamp put on by Charlie Werness for the bones of this project and the guidance to get through it.
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses the Moment.js library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+##License
+This is published under MIT license, but is subject for Trilogy's All Rights Reserved.
