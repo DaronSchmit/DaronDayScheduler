@@ -1,4 +1,6 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Schedulinator 9000
+
+### AKA 05 Third-Party APIs: Work Day Scheduler
 
 ## Description
 This project is a basic webpage made to help schedule out a workday in an hourly fashion. This project was made to focus on manipulating HTML, CSS, and localStorage using jquery as well as learning how to use a new API in moment.js.
